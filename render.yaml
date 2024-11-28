@@ -3,4 +3,4 @@ services:
     name: my-pyrogram-bot
     startCommand: ./start.sh
     env:
-      PORT: 0
+      RENDER_PORT: disabled
