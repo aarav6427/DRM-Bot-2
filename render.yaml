@@ -1,4 +1,6 @@
 services:
   - type: worker
     name: my-pyrogram-bot
-    command: python main.py
+    startCommand: ./start.sh
+    env:
+      PORT: 0
