@@ -1,0 +1,4 @@
+services:
+  - type: worker
+    name: my-pyrogram-bot
+    startCommand: python main.py
