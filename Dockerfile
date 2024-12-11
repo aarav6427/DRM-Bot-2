@@ -22,3 +22,5 @@ RUN pip3 install -r requirements.txt
 CMD ["sh", "start.sh"]
 
 #!git clone https://github.com/axiomatic-systems/Bento4.git && cd Bento4 && apt-get -y install cmake && mkdir cmakebuild && cd cmakebuild/ && cmake -DCMAKE_BUILD_TYPE=Release .. && make && make install
+# পোর্ট ৩০০০ এক্সপোজ করছি
+EXPOSE 8000
